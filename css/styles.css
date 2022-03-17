@@ -134,6 +134,7 @@ ul {
 /*контакты хедер*/
 .contacts-link {
   margin-right: 50px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:last-child {
@@ -469,6 +470,7 @@ a:focus .nav-contacts-icon-phone {
 .team-icon {
   margin-right: 10px;
   text-align: center;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon:last-child {
@@ -527,6 +529,7 @@ a:focus .nav-contacts-icon-phone {
   margin-right: 30px;
   width: 170px;
   height: 92px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-clients:not(:last-child) {
@@ -547,7 +550,7 @@ a:focus .nav-contacts-icon-phone {
   fill: #2196f3;
 }
 
-.logo-clients-link:hover . .logo-clients:last-child {
+.logo-clients-link:hover .logo-clients:last-child {
   margin-right: 0;
 }
 
@@ -654,6 +657,7 @@ a:focus .nav-contacts-icon-phone {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-footer:not(:last-child) {
@@ -734,6 +738,7 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .features {
@@ -827,10 +832,6 @@ a {
 .list-title-wrapper {
   display: block;
 }
-
-/*.lopa:hover {
-  opacity: 1;
-} */
 
 /* заголовок */
 
